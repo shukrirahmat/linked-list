@@ -1,5 +1,3 @@
-import createLinkedList from "./createLinkedList.js";
-
 const list = createLinkedList();
 list.prepend("banana");
 list.append("carrot");

@@ -4,5 +4,3 @@ const createNode = function createNode(value = null, nextNode = null) {
     nextNode,
   };
 };
-
-export default createNode;

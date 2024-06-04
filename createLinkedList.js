@@ -1,5 +1,3 @@
-import createNode from "./createNode.js";
-
 const createLinkedList = function createLinkedList() {
   let head = null;
 
@@ -160,5 +158,3 @@ const createLinkedList = function createLinkedList() {
     removeAt,
   };
 };
-
-export default createLinkedList;
