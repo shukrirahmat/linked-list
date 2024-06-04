@@ -55,7 +55,7 @@ const createLinkedList = function createLinkedList() {
         currentNode = currentNode.nextNode;
         index--;
       }
-      return currentNode.value;
+      return currentNode;
     }
   };
 

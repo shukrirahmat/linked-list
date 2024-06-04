@@ -11,7 +11,7 @@ const toStringCheck =
 const sizeCheck = list.size() == 4;
 const headCheck = list.getHead().value == "apple";
 const tailCheck = list.getTail().value == "durian";
-const atCheck = list.at(1) == "banana" && list.at(3) == "durian";
+const atCheck = list.at(1).value == "banana" && list.at(3).value == "durian";
 const containsCheck = list.contains("banana") && !list.contains("lemon");
 const findCheck = list.find("carrot") == 2 && list.find("lemon") == null;
 
